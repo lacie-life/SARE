@@ -7,7 +7,7 @@ script_dir = os.path.dirname(os.path.realpath(__file__))
 
 region_regex = re.compile(r"\_\w{2,3}\_", flags=re.IGNORECASE)
 
-heridal_path = "/home/jun/Data/heridal"
+heridal_path = "/home/jun/Documents/heridal"
 
 def count_objects_in_xml(xml_path):
     objects = 0
